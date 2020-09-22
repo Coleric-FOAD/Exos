@@ -1,4 +1,9 @@
 # Exos
 Dépot des exercices !
 
-Correction
+Dépot Exercices 22/09/2020
+
+Fait avec Notepad ++ à ouvrir avec 
+
+
+

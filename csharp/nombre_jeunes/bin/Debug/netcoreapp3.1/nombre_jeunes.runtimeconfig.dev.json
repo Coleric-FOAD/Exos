@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Coleric\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Coleric\\.nuget\\packages"
+    ]
+  }
+}

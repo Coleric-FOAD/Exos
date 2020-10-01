@@ -1,0 +1,13 @@
+C:\GitHub_FOAD\Exos\csharp\nombre_jeunes\bin\Debug\netcoreapp3.1\nombre_jeunes.exe
+C:\GitHub_FOAD\Exos\csharp\nombre_jeunes\bin\Debug\netcoreapp3.1\nombre_jeunes.deps.json
+C:\GitHub_FOAD\Exos\csharp\nombre_jeunes\bin\Debug\netcoreapp3.1\nombre_jeunes.runtimeconfig.json
+C:\GitHub_FOAD\Exos\csharp\nombre_jeunes\bin\Debug\netcoreapp3.1\nombre_jeunes.runtimeconfig.dev.json
+C:\GitHub_FOAD\Exos\csharp\nombre_jeunes\bin\Debug\netcoreapp3.1\nombre_jeunes.dll
+C:\GitHub_FOAD\Exos\csharp\nombre_jeunes\bin\Debug\netcoreapp3.1\nombre_jeunes.pdb
+C:\GitHub_FOAD\Exos\csharp\nombre_jeunes\obj\Debug\netcoreapp3.1\nombre_jeunes.csprojAssemblyReference.cache
+C:\GitHub_FOAD\Exos\csharp\nombre_jeunes\obj\Debug\netcoreapp3.1\nombre_jeunes.AssemblyInfoInputs.cache
+C:\GitHub_FOAD\Exos\csharp\nombre_jeunes\obj\Debug\netcoreapp3.1\nombre_jeunes.AssemblyInfo.cs
+C:\GitHub_FOAD\Exos\csharp\nombre_jeunes\obj\Debug\netcoreapp3.1\nombre_jeunes.csproj.CoreCompileInputs.cache
+C:\GitHub_FOAD\Exos\csharp\nombre_jeunes\obj\Debug\netcoreapp3.1\nombre_jeunes.dll
+C:\GitHub_FOAD\Exos\csharp\nombre_jeunes\obj\Debug\netcoreapp3.1\nombre_jeunes.pdb
+C:\GitHub_FOAD\Exos\csharp\nombre_jeunes\obj\Debug\netcoreapp3.1\nombre_jeunes.genruntimeconfig.cache

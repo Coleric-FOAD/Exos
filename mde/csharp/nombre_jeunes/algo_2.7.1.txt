@@ -1,0 +1,59 @@
+VARIABLES
+I EST UN ENTIER
+N EST UN ENTIER
+AGES EST UN TABLEAU
+
+DEBUT PROGRAMME
+	Ecrire "Entrez 20 âges"
+
+	Lire AGES <-- Saisies utilisateur 
+    
+    N = 0;
+
+    POUR I = 0 A AGES.LENGTH
+    FAIRE
+        SI AGES[I] < 20
+        ALORS
+            N = N + 1;
+        FIN SI
+    FIN POUR 
+	
+	Ecrire "Le nombre de personnes agées de moin de 20 ans est ", N
+
+FIN PROGRAMME
+
+
+
+
+VARIABLES
+I           EST UN ENTIER
+MOINS_20    EST UN ENTIER
+PLUS_20     EST UN ENTIER
+EGAL_20     EST UN ENTIER
+AGES        EST UN TABLEAU
+
+DEBUT PROGRAMME
+	Ecrire "Entrez 20 âges"
+
+	Lire AGES <-- Saisies utilisateur 
+    
+    N = 0;
+
+    POUR I = 0 A AGES.LENGTH
+    FAIRE
+        SI AGES[I] < 20
+        ALORS
+            MOINS_20 = MOINS_20 + 1;
+        SINON SI AGES[I] > 20
+        ALORS
+            PLUS_20 = PLUS_20 + 1;
+        SINON 
+            EGAL_20 = EGAL_20 + 1
+        FIN SI
+    FIN POUR 
+	
+	Afficher "Le nombre de personnes agées de moins de 20 ans est ", MOINS_20
+	Afficher "Le nombre de personnes agées de plus de 20 ans est ", PLUS_20
+	Afficher "Le nombre de personnes agées de 20 ans est ", EGAL_20
+
+FIN PROGRAMME

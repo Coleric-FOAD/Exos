@@ -26,7 +26,7 @@ namespace nombre_jeunes
 
             Console.WriteLine("Vous avez écrit: " + saisie);
 
-            AGES = saisie.Split(' ');
+            AGES = saisie.Split(' '); 
 
             N = 0;
 

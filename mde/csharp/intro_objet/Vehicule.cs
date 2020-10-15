@@ -7,7 +7,7 @@ namespace intro_objet
     {
         string genre;
 
-        string couleur;
+        private string couleur;
 
         public Vehicule(string _type, string _couleur)
         {
@@ -18,6 +18,11 @@ namespace intro_objet
         public string GetGenre()
         {
             return this.genre;
+        }
+
+        public void Demarrer()
+        {
+            
         }
     }
 }

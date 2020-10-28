@@ -28,6 +28,7 @@ namespace tarot
                 deuxDeCarreau = new CarteTarot ("Carreau", "Deux");
                 septDeTrefle = new CarteTarot ("Trèfle", "Sept");
 
+
         }
     }
 }

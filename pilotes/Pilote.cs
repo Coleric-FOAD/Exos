@@ -63,6 +63,5 @@ namespace pilotes
 
     }  // Fin de classe (Pilote)
 
-} // Fin du NameSpace (test_pilote)
-
+} 
 

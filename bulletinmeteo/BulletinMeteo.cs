@@ -8,23 +8,23 @@ namespace bulletinmeteo
 
         private DateTime date;
 
-        private DateTime heure;
+        private string heure;
 
         private string localisation;
 
-        private string regiondumonde;
+        private string region;
     
         private bool presentateur;
 
 
 
-        public Bulletin (DateTime nouvelledate, DateTime nouvelleheure, string nouvellelocalisation, string nouvelleregiondumonde, bool nouveaupresentateur)
+        public Bulletin (DateTime nouvelledate, string nouvelleheure, string nouvellelocalisation, string nouvelleregion, bool nouveaupresentateur)
         {
 
             this.date = nouvelledate;
             this.heure = nouvelleheure;
             this.localisation = nouvellelocalisation;
-            this.regiondumonde = nouvelleregiondumonde;
+            this.region = nouvelleregion;
             this.presentateur = nouveaupresentateur;
 
             Console.WriteLine("Création d'un bulletin météo du " + this.date + this.heure);

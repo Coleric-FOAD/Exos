@@ -4,14 +4,7 @@ namespace tarot
 {
     class Program
     {
-        static CarteTarot dameDeCoeur;
-        static CarteTarot asDeTrefle;
-        static CarteTarot roiDeCarreau;
-        static CarteTarot huitDePique;
-        static CarteTarot douzeAtout;
-        static CarteTarot deuxDeCarreau;
-        static CarteTarot septDeTrefle;
-
+        
         
         static void Main(string[] args)
         {
@@ -20,13 +13,19 @@ namespace tarot
             // définition des objets à partir de la classe CarteTarot
 
 
-                dameDeCoeur = new CarteTarot ("Coeur", "Dame");
-                asDeTrefle = new CarteTarot ("As", "Trèfle");
-                roiDeCarreau = new CarteTarot ("Carreau", "Roi");
-                huitDePique = new CarteTarot ("Pique", "Huit");
-                douzeAtout = new CarteTarot ("Atout", "Douze");
-                deuxDeCarreau = new CarteTarot ("Carreau", "Deux");
-                septDeTrefle = new CarteTarot ("Trèfle", "Sept");
+                CarteTarot dameDeCoeur = new CarteTarot ("Figure", "Dame", "Coeur");
+                CarteTarot asDeTrefle = new CarteTarot ("Chiffre", "As", "Trèfle");
+                CarteTarot roiDeCarreau = new CarteTarot ("Figure","Roi", "Carreau");
+                CarteTarot huitDePique = new CarteTarot ("Chiffre", "Huit", "Pique");
+                CarteTarot douzeAtout = new CarteTarot ("Atout","Atout","Douze");
+                CarteTarot deuxDeCarreau = new CarteTarot ("Chiffre", "Deux", "Carreau");
+                CarteTarot septDeTrefle = new CarteTarot ("Chiffre","Sept","Trèfle");
+
+            Console.WriteLine("\r");
+
+            dameDeCoeur.Jouer();
+            Console.WriteLine("\r");
+            douzeAtout.Couper(dameDeCoeur);
 
 
         }

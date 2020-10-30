@@ -16,11 +16,14 @@ namespace bulletinmeteo
             // définition des objets à partir de la classe Bulletin
 
 
-            Bulletin matin = new Bulletin (DTM," 8 H "," Schiltigheim "," Alsace ", true);
+            Bulletin matin = new Bulletin (DTM, " 8 H ", " Schiltigheim ", " Alsace ", true);
             Bulletin midi = new Bulletin (DTM, " 12 H ", " Paris ", " Ile de France ", true);
             Bulletin soir = new Bulletin (DTM, " 19 H ", " Merseille ", " PACA ", false);
             Bulletin nuit = new Bulletin (DTM, " 24 H ", " Nancy ", " Lorraine ", false);
-             
+
+            Bulletin test = new Bulletin(" BD ", " Afrique ");
+
+            Console.WriteLine(matin.presentateur);
 
 
         }

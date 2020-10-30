@@ -10,24 +10,25 @@ namespace tarot
         
         private string valeur;
 
-        // private string type;
+        private string type;
 
+        
  
 
-        public CarteTarot (string nouvellecouleur, string nouvellevaleur)
+        public CarteTarot (string nouveautype, string nouvellevaleur,string nouvellecouleur)
         {
                     this.couleur = nouvellecouleur;
                     this.valeur = nouvellevaleur;
-                    // this.type = nouveautype;
+                    this.type = nouveautype;
 
-                    Console.WriteLine("Création d'une nouvelle carte " + this.valeur + " de " + this.couleur);
+                    Console.WriteLine("Création d'une nouvelle carte " + this.type + " , " + this.valeur + " de " + this.couleur);
                     
         }
 
         public void Jouer()
 
         {
-            Console.WriteLine(this.valeur + "est jouée avec la valeur " + "et la couleur " + this.couleur);
+            Console.WriteLine(this.type + " est jouée avec la valeur " + this.valeur + " et la couleur " + this.couleur);
 
             
 
@@ -36,8 +37,20 @@ namespace tarot
         public void Couper()
         {
 
+            Console.WriteLine(" est coupé(e) par le " + this.couleur + " d'" + this.valeur );
 
-        } // Fin de classe (CarteTarot)
+
+
+        }
+        public void Couper(CarteTarot nouvellecarte)
+        {
+
+            Console.WriteLine(nouvellecarte.valeur + " est coupé(e) par le " + this.couleur + " d'" + this.valeur);
+
+
+        }
+
+        // Fin de classe (CarteTarot)
 
 
     } // Fin du NameSpace (tarot)

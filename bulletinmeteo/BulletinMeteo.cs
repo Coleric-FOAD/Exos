@@ -14,7 +14,7 @@ namespace bulletinmeteo
 
         private string region;
     
-        private bool presentateur;
+        public bool presentateur;
 
 
 
@@ -31,6 +31,18 @@ namespace bulletinmeteo
 
 
         }
+
+        public Bulletin (string stroumpf, string zimb)
+        {
+
+            this.localisation = stroumpf;
+            this.region = zimb;
+
+            Console.WriteLine(" Création nouveau bulletin avec nouveau constructeur ");
+
+
+        }
+                    
 
         public void Parler()
         {

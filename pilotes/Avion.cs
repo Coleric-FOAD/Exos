@@ -27,8 +27,7 @@ namespace pilotes
             this.rayonaction = nouveaurayonaction;
             this.modele = nouveaumodele;
             this.marque = nouvellemarque;
-
-            Console.WriteLine("Utilisation d'un nouvel avion  " + this.modele + " de marque " + this.marque);
+            Console.WriteLine("Utilisation d'un nouvel avion  " + this.modele + " de type " + this.marque);
         }
 
         public void AssocierPilote(Pilote nouveaupilote)

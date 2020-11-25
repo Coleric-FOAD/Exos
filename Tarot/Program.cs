@@ -27,6 +27,7 @@ namespace tarot
             Console.WriteLine("\r");
             douzeAtout.Couper(dameDeCoeur);
 
+            Console.ReadLine();
 
         }
     }

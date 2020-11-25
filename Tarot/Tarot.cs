@@ -26,20 +26,15 @@ namespace tarot
         }
 
         public void Jouer()
-
         {
             Console.WriteLine(this.type + " est jouée avec la valeur " + this.valeur + " et la couleur " + this.couleur);
-
-            
-
+                 
         }
 
         public void Couper()
         {
 
             Console.WriteLine(" est coupé(e) par le " + this.couleur + " d'" + this.valeur );
-
-
 
         }
         public void Couper(CarteTarot nouvellecarte)

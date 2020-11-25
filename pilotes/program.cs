@@ -38,6 +38,19 @@ namespace pilotes
             reco = new Avion (855, 12500, 7400, "E-3 Sentry", "Boeing");
 
 
-                   }
+            // association des avions et des pilotes
+            chasseur.AssocierPilote(ailier);
+            bombardier.AssocierPilote(souschef);
+
+            chasseur.Accelerer();
+
+            intercepteur.Accelerer();
+
+
+
+            Console.WriteLine("Appuyez sur n'importe quelle touche pour quitter.");
+
+            Console.ReadLine();
+        }
     }
 }

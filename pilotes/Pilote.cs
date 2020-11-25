@@ -6,14 +6,13 @@ namespace pilotes
     class Pilote
     {
 
-        private string grade;
+        public string grade;
 
-        private string nom;
+        public string nom;
 
-        private int matricule;
+        public int matricule;
 
-        private DateTime datedenaissance;
-
+        public DateTime datedenaissance;
 
 
         public Pilote (string nouveaugrade, string nouveaunom, int nouveaumatricule, DateTime nouvelledatedenaissance)

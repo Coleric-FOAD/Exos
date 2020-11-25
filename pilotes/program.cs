@@ -39,6 +39,16 @@ namespace pilotes
 
             Console.WriteLine("Appuyez sur une touche");
 
+            // association des avions et des pilotes
+            chasseur.AssocierPilote(ailier);
+            bombardier.AssocierPilote(souschef);
+
+            chasseur.Accelerer();
+
+            intercepteur.Accelerer();
+
+            Console.WriteLine("Appuyez sur n'importe quelle touche pour quitter.");
+
             Console.ReadLine();
 
         }

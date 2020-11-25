@@ -25,9 +25,9 @@ namespace pilotes
             this.plafond = nouveauplafond;
             this.rayonaction = nouveaurayonaction;
             this.modele = nouveaumodele;
-            this.type = nouveautype;
+            this.marque = nouvellemarque;
 
-            Console.WriteLine("Utilisation d'un nouvel avion  " + this.modele + " de type " + this.type);
+            Console.WriteLine("Utilisation d'un nouvel avion  " + this.modele + " de type " + this.marque);
 
 
         }

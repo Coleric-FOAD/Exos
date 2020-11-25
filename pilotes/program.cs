@@ -37,7 +37,10 @@ namespace pilotes
             // intercepteur = new Avion (2600, 23000, 2200, "Rafale", "Dassault"); 
             reco = new Avion (855, 12500, 7400, "E-3 Sentry", "Boeing");
 
+            Console.WriteLine("Appuyez sur une touche");
 
-                   }
+            Console.ReadLine();
+
+        }
     }
 }

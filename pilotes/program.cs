@@ -14,8 +14,6 @@ namespace pilotes
         static Avion reco;
 
 
-
-
         static void Main(string[] args)
         {
 

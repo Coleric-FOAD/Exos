@@ -12,6 +12,12 @@ namespace Calculatrice
 {
     public partial class FrmCalculatrice : Form
     {
+        int tmpResult = 0;
+
+        string enCoursDeSaisie = "";
+
+        //string operateur;
+
         public FrmCalculatrice()
         {
             InitializeComponent();
@@ -21,15 +27,23 @@ namespace Calculatrice
         {
             Button bouton = sender as Button;
 
-            string texte = bouton.Text;
+            enCoursDeSaisie += bouton.Text;
 
-            int chiffre = Convert.ToInt32(texte);
-
-            MessageBox.Show(texte);
-
-            txtResult.Text = texte;
-
+            txtResult.Text += bouton.Text;
         }
 
+
+
+        private void btnPlus_Click(object sender, EventArgs e)
+        {
+            if(enCoursDeSaisie != "")
+            {
+                tmpResult = tmpResult + Convert.ToInt32(enCoursDeSaisie);
+
+                enCoursDeSaisie = "";
+
+                txtResult.Text = tmpResult.ToString() + "+";
+            }
+        }
     }
 }

@@ -1,16 +1,18 @@
+ Import-Module -Name .\Calcul
 
-Class Calcul 
-{
-	[Int] $nb1
-	[Int] $nb2
+ $calcul = New-CalculClass
 
-	Calcul()
-	{
-		Write-Host "Constructeur de calcul"
-	}
-}
+ $calcul.DemanderNombres()
 
-$calcul = [Calcul]::new()
 
-$calcul2 = [Calcul]::new()
+# $calcul2 = [Calcul]::new()
+
+#$calcul = [Calcul]::new()
+
+# $calcul.nb1 = 1
+# $calcul.nb2 = 3
+
+#$calcul.DemanderNombres()
+# $calcul.Additionner()
+# $calcul.Soustraire()
 
